@@ -29,14 +29,6 @@ export default {
 </script>
 
 <style lang="sass">
-.banner-interno
-  height: 114px
-.banner-interno__fondo
-  background-image: url(assets/curso/fondo_tema.png) !important
-.titulo-principal__numero
-  background-color: #0098E8 !important
-.titulo-principal__numero span
-  color: #fff !important
 .curso-main-container > .container
   overflow-x: clip !important
 .titulo-segundo:after
