@@ -8,11 +8,16 @@
           i.fas.fa-info
       h1 Introducción
 
-    p(data-aos="fade-up") Bienvenido a este componente formativo. Para comenzar el recorrido por el mismo, se invita a revisar la información que se presenta a continuación.
 
-    figure.mt-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.bg-c2
+      .col-12
+        .px-5
+          p(data-aos="fade-up") Bienvenido a este componente formativo. Para comenzar el recorrido por el mismo, se invita a revisar la información que se presenta a continuación.
+
+          figure.my-5
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/P9kmYwT-hM8" title="Importancia de la evaluación de la calidad de servicio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Video: Importancia de la evaluación de la calidad de servicio.
 
 </template>
 
