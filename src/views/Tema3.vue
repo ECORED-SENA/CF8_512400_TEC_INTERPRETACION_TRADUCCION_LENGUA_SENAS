@@ -46,8 +46,9 @@
       h5 Figura 1.
       span Instrumento de evaluación individual
 
-    figure.mt-4.col-lg-8.m-auto
-      img(src="@/assets/curso/tema3/3.jpg" data-aos="zoom-in-up")
+    .d-flex.justify-content-center
+      figure.mt-4.d-flex.justify-content-center
+        img(src="@/assets/curso/tema3/3.jpg" data-aos="zoom-in-up" style="max-width:820px")
 
 
 
