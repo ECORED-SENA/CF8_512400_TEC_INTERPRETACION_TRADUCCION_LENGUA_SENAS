@@ -27,7 +27,7 @@
         p.mt-3 La evaluación es un instrumento que permite definir parámetros frente a los cuales se valora el proceso y los resultados.
         p.mt-3 De acuerdo con Sainz (2011) algunos parámetros que aplican para la Lengua de Señas Colombiana son el acento nativo, voz agradable, fluidez, coherencia interna, transmisión completa y con sentido del discurso original, estilo apropiado, buen uso de la lengua de señas, uso gramaticalmente correcto, preparación a fondo del servicio/conferencia - conocimiento del tema, autodisciplina, mejora continua, autoexigencia, trabajo en equipo, adaptación a diferentes situaciones, manejo de estrés, etc. (p. 302-303).
         p.mt-3 En el marco de los criterios de calidad establecidos por Solow (2011), pueden destacarse la flexibilidad, objetividad y autodisciplina (p.304).
-        p.mt-3 Pero, uno de los elementos más importantes es, sin dudas, la experiencia.
+        p.mt-3 Pero, uno de los elementos más importantes es, sin dudas, #[b la experiencia].
 
     .p-3.mt-5.ps-4.pe-4.mb-5(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
       h3.mb-0.text-white.text-center(data-aos="fade-up") Resolución de situaciones adversas
@@ -43,7 +43,7 @@
         .col
           p(data-aos="fade-up") Estas situaciones pueden ser infinitamente variadas, porque no existen servicios, personas, clientes, compañeros, instituciones, empresas, entidades, momentos ni días exactamente iguales. Las contingencias, por lo tanto, pueden ser externas o internas, es decir, por parte del intérprete (internas) o por factores que se escapan al manejo o función de este (externas).
           p.mt-4(data-aos="fade-up") En el siguiente documento se referencian cada una de ellas:
-          a.boton.color-acento-botones.fw-bold.mt-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.fw-bold.mt-3(:href="obtenerLink('/downloads/situaciones_adversas.pdf')" target="_blank" type="application/pdf")
             span Situaciones adversas
 
     p.mt-5(data-aos="fade-up") Intentar explicar la complejidad de interpretar un concepto, tener la agilidad mental para reconstruir una imagen y adaptarla a un idioma con un léxico, morfología y sintaxis diferente, y darle una forma literal con signos lingüísticos hechos con las manos, además de ir haciéndolo sobre la marcha, puede resultar sofocante, pero, sobre todo, es aún más opresivo cuando se está haciendo el ejercicio mientras se está expuesto a situaciones adversas sin herramientas o estrategias para resolverlas.

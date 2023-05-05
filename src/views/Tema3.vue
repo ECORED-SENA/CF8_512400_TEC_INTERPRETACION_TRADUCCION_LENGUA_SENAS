@@ -22,8 +22,53 @@
 
     p(data-aos="fade-up") Siguiendo a Domínguez (2015), los principales tipos y ejemplos de instrumentos de evaluación tratados en la bibliografía especializada son:
 
-    figure.mt-5
+    figure.mt-5.d-none.d-md-block
       img(src="@/assets/curso/tema3/1.svg" data-aos="zoom-in-up")
+
+    .d-md-none
+
+      figure.mt-5.p-3.mb-3.d-flex.justify-content-center
+        .col-6
+          img(src="@/assets/curso/tema3/1b.svg" data-aos="zoom-in-up")
+
+      ul.lista-ul--separador
+        li
+          i.fas.fa-angle-right
+          | Tutorías especializadas
+        li
+          i.fas.fa-angle-right
+          | Hojas de autoevaluación
+        li
+          i.fas.fa-angle-right
+          | Matrices de valoración
+        li
+          i.fas.fa-angle-right
+          | Hojas de evaluación
+        li
+          i.fas.fa-angle-right
+          | Modelos
+        li
+          i.fas.fa-angle-right
+          | Parrillas y autoevaluación
+        li
+          i.fas.fa-angle-right
+          | Diarios retrospectivos semi-guiados
+        li
+          i.fas.fa-angle-right
+          | Lista de autoevaluación
+        li
+          i.fas.fa-angle-right
+          | Portafolios
+        li
+          i.fas.fa-angle-right
+          | Diarios del profesor
+        li
+          i.fas.fa-angle-right
+          | Pautas meta cognitivas
+        li
+          i.fas.fa-angle-right
+          | Diarios de aprendizaje no guiados
+
 
     br
     .p-3.mt-5.ps-4.pe-4.mb-5(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
@@ -48,12 +93,7 @@
 
     .d-flex.justify-content-center
       figure.mt-4.d-flex.justify-content-center
-        img(src="@/assets/curso/tema3/3.jpg" data-aos="zoom-in-up" style="max-width:820px")
-
-
-
-
-
+        img(src="@/assets/curso/tema3/tabla.svg" data-aos="zoom-in-up" style="max-width:820px")
 
 </template>
 
@@ -64,6 +104,8 @@ export default {
   data: () => ({
     indicadorTarjetaSlide: true,
     indicadorTarjetaFlip: true,
+    mostrarIndicador: true,
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {

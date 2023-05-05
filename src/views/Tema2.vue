@@ -79,19 +79,19 @@
         ul.lista-ul
           li
             i.lista-ul__vineta
-            | Interna
+            | Interna.
           li
             i.lista-ul__vineta
-            | Externa
+            | Externa.
           li
             i.lista-ul__vineta
-            | Coevaluación
+            | Coevaluación.
           li
             i.lista-ul__vineta
-            | Autoevaluación
+            | Autoevaluación.
           li
             i.lista-ul__vineta
-            | Heteroevaluación
+            | Heteroevaluación.
       .tarjeta.color-primario.p-3(x="11%" y="62%" numero="+")
         .h4.mb-2 De extensión
         ul.lista-ul
@@ -102,7 +102,7 @@
             i.lista-ul__vineta
             | Evaluación global.
 
-    p.mt-5(data-aos="fade-up") Cada uno de estos tipos de evaluación contiene diferentes instrumentos para lograr sus objetivos particulares. Por ejemplo, rejillas, encuestas, entrevistas, KPSI, observación, contraste, entre muchos otros. Es necesario que luego de la evaluación se dé una retroalimentación (feedback) para reconocer las fortalezas y debilidades por mejorar, así se identifican las necesidades particulares, se aprende de los errores y se hacen mejoras en el servicio.
+    p.mt-5(data-aos="fade-up") Cada uno de estos tipos de evaluación contiene diferentes instrumentos para lograr sus objetivos particulares. Por ejemplo, rejillas, encuestas, entrevistas, KPSI, observación, contraste, entre muchos otros. Es necesario que luego de la evaluación se dé una retroalimentación #[i (feedback)] para reconocer las fortalezas y debilidades por mejorar, así se identifican las necesidades particulares, se aprende de los errores y se hacen mejoras en el servicio.
 
     .p-3.mt-5.ps-4.pe-4.mb-5(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
       h3.mb-0.text-white.text-center(data-aos="fade-up") Procesos de evaluación
@@ -114,7 +114,7 @@
         .col-lg-10.col
           .tarjeta.color-acento-botones.p-5.cont_slyderf
             h4 Coevaluación
-            p.mt-4 Se realiza entre compañeros para analizar el desempeño y los procesos en los servicios de interpretación. El aprendizaje mutuo se hace evidente en este tipo de evaluación donde se suelen aplicar criterios subjetivos y la retroalimentación o feedback, generalmente no es muy fluida, aunque en algunas ocasiones se hace uso de una rúbrica para delinear los criterios, además de la observación y el análisis mutuo.
+            p.mt-4 Se realiza entre compañeros para analizar el desempeño y los procesos en los servicios de interpretación. El aprendizaje mutuo se hace evidente en este tipo de evaluación donde se suelen aplicar criterios subjetivos y la retroalimentación o #[i feedback], generalmente no es muy fluida, aunque en algunas ocasiones se hace uso de una rúbrica para delinear los criterios, además de la observación y el análisis mutuo.
             p.mt-4 Autores como Dochy, Segers y Sluijmans (1999) apoyan el término coevaluación o coassesment, y aclaran que la evaluación colaborativa (collaborative assessment) y la evaluación cooperativa (cooperative assessment) son sinónimos.  La coevaluación suele hacerse en grupos en donde se escuchan, formulan preguntas y se evita divagar en las respuestas; aunque pueden asignarse tareas individuales.
             .row.mt-4
               .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
@@ -250,7 +250,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/tema2/17.png')})`}"
         )
         .bloque-texto-g__texto.p-5
-          p.mb-0 Los criterios definen lo que se espera del sujeto evaluado, analizándolo y comparándolo con un estándar de desempeño de la labor realizada, en otras palabras, los criterios son los que responden a la pregunta: ¿Qué es lo que se va a evaluar?, así, cuando se tienen claros estos parámetros, se puede empezar a componer la evaluación.
+          p.mb-0 Los criterios definen lo que se espera del sujeto evaluado, analizándolo y comparándolo con un estándar de desempeño de la labor realizada, en otras palabras, los criterios son los que responden a la pregunta: #[b ¿Qué es lo que se va a evaluar?], así, cuando se tienen claros estos parámetros, se puede empezar a componer la evaluación.
 
     p.mt-5(data-aos="fade-up") Estos criterios pueden ser, entre otros:
 
@@ -311,11 +311,11 @@
                   img(src='@/assets/curso/tema2/26.png' style="max-width:200px;")
               .col
                 h4 Retroalimentación
-                p Viene del anglicismo feedback, que hace referencia a una reacción, respuesta o retorno sobre un asunto determinado, en este caso, sobre el resultado de una evaluación.
+                p Viene del anglicismo #[i feedback], que hace referencia a una reacción, respuesta o retorno sobre un asunto determinado, en este caso, sobre el resultado de una evaluación.
 
     .row.mt-5
       .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
-        p(data-aos="fade-up") El feedback o retroalimentación de los resultados de una evaluación comparte información, observaciones, sugerencias y preocupaciones; con el fin de mejorar la calidad del servicio que se prestó. Por tal razón, es imprescindible que los resultados de la retroalimentación se comenten con el intérprete o grupo de trabajo. Esto para escuchar las opiniones del equipo, quizás en una coevaluación, y las sugerencias para mejorar.
+        p(data-aos="fade-up") El #[i feedback] o retroalimentación de los resultados de una evaluación comparte información, observaciones, sugerencias y preocupaciones; con el fin de mejorar la calidad del servicio que se prestó. Por tal razón, es imprescindible que los resultados de la retroalimentación se comenten con el intérprete o grupo de trabajo. Esto para escuchar las opiniones del equipo, quizás en una coevaluación, y las sugerencias para mejorar.
         p.mt-4(data-aos="fade-up") Este es, tal vez, uno de los pasos más importantes en una evaluación, porque al revisar el desempeño teniendo una comunicación fluida con el equipo de intérpretes, se cierra el ciclo de la evaluación y se establecen nuevas pautas de trabajo. La retroalimentación puede generar un impacto positivo o negativo en el evaluado, según la manera como se realice y puede contribuir o no al proceso de aprendizaje continuo del intérprete. Puede incidir la autoestima, la autoconcepción y la motivación del evaluado.
       .col-lg-3(style="place-self:center;")
         figure
@@ -325,10 +325,11 @@
 
     h4.mt-5.text-center(data-aos="fade-up" style="color:#0098E8;") Recomendaciones para una retroalimentación efectiva
 
-    figure.mt-5
+    figure.mt-5.d-none.d-md-block
       img(src='@/assets/curso/tema2/28.svg' data-aos="zoom-in-up")
 
-
+    figure.mt-5.d-md-none
+      img(src='@/assets/curso/tema2/28_movil.svg' data-aos="zoom-in-up")
 
 </template>
 
