@@ -104,72 +104,121 @@
 
     p.mt-5(data-aos="fade-up") Cada uno de estos tipos de evaluación contiene diferentes instrumentos para lograr sus objetivos particulares. Por ejemplo, rejillas, encuestas, entrevistas, KPSI, observación, contraste, entre muchos otros. Es necesario que luego de la evaluación se dé una retroalimentación #[i (feedback)] para reconocer las fortalezas y debilidades por mejorar, así se identifican las necesidades particulares, se aprende de los errores y se hacen mejoras en el servicio.
 
-    .p-3.mt-5.ps-4.pe-4.mb-5(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
+    .p-3.mt-5.ps-4.pe-4.mb-4(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
       h3.mb-0.text-white.text-center(data-aos="fade-up") Procesos de evaluación
 
-    p(data-aos="fade-up") La evaluación debe ejecutarse de manera permanente, sistemática y planificada para que proporcione información útil, oportuna y confiable, es por esto que dentro de las misma deben existir tres procesos básicos, los cuales son:
+    p(data-aos="fade-up").mb-5 La evaluación debe ejecutarse de manera permanente, sistemática y planificada para que proporcione información útil, oportuna y confiable, es por esto que dentro de las misma deben existir tres procesos básicos, los cuales son:
 
-    SlyderA.slyderf1.mt-5
-      .row.justify-content-center
-        .col-lg-10.col
-          .tarjeta.color-acento-botones.p-5.cont_slyderf
-            h4 Coevaluación
-            p.mt-4 Se realiza entre compañeros para analizar el desempeño y los procesos en los servicios de interpretación. El aprendizaje mutuo se hace evidente en este tipo de evaluación donde se suelen aplicar criterios subjetivos y la retroalimentación o #[i feedback], generalmente no es muy fluida, aunque en algunas ocasiones se hace uso de una rúbrica para delinear los criterios, además de la observación y el análisis mutuo.
-            p.mt-4 Autores como Dochy, Segers y Sluijmans (1999) apoyan el término coevaluación o coassesment, y aclaran que la evaluación colaborativa (collaborative assessment) y la evaluación cooperativa (cooperative assessment) son sinónimos.  La coevaluación suele hacerse en grupos en donde se escuchan, formulan preguntas y se evita divagar en las respuestas; aunque pueden asignarse tareas individuales.
-            .row.mt-4
-              .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
-                p Para implementar la coevaluación, se recomienda:
-                ul.lista-ul.mt-4
-                  li
-                    i.lista-ul__vineta
-                    | Tener un objetivo común.
-                  li
-                    i.lista-ul__vineta
-                    | Evaluar el desempeño y la calidad del trabajo.
-                  li
-                    i.lista-ul__vineta
-                    | Tener criterios predefinidos.
-                  li
-                    i.lista-ul__vineta
-                    | Respetar y atender la opinión de los pares.
-              .col-lg-6(style="place-self:center;")
-                figure
-                  img(src="@/assets/curso/tema2/4.png")
+    h4.mb-4
+      span.subtitulo #[i.fas.fa-square.cac.me-1] Coevaluación
 
-      .row.justify-content-center
-        .col-lg-10.col
-          .tarjeta.color-acento-botones.p-5.cont_slyderf
-            h4 Autoevaluación
-            p.mt-4 El proceso de autoevaluación busca la mejora desde una perspectiva interna, de la formación continua y de la eficacia del servicio de interpretación. Ayuda a la toma de conciencia del intérprete evaluando su propio trabajo, según sus propias características y habilidades; como las estrategias cognitivas, los conocimientos previos, el ajuste emocional y social, entre otros.
-            p.mt-4 El prestador del servicio aprende a ser una persona responsable y crítica de su labor; se vuelve más consciente de su trabajo, desarrollando cualidades como el autoanálisis, la autoestima y la participación. Así, un profesional tiene la capacidad de reflexionar y planificar sobre su propio desempeño. Pueden hacerse autoevaluaciones individuales o grupales, dependiendo del objetivo y el procedimiento.
-            .row.mt-4
-              .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
-                p Para implementar la autoevaluación, se pueden seguir las siguientes recomendaciones:
-                ul.lista-ul.mt-4
-                  li
-                    i.lista-ul__vineta
-                    | Tener objetivos concretos.
-                  li
-                    i.lista-ul__vineta
-                    | Mantener una mente abierta y flexible.
-                  li
-                    i.lista-ul__vineta
-                    | Estimular un clima positivo de aprendizaje.
-              .col-lg-6(style="place-self:center;")
-                figure
-                  img(src="@/assets/curso/tema2/5.png")
+    .row.mb-4
+      .col-lg-8.col-md
+        p Se realiza entre compañeros para analizar el desempeño y los procesos en los servicios de interpretación. El aprendizaje mutuo se hace evidente en este tipo de evaluación donde se suelen aplicar criterios subjetivos y la retroalimentación o #[i feedback], generalmente no es muy fluida, aunque en algunas ocasiones se hace uso de una rúbrica para delinear los criterios, además de la observación y el análisis mutuo.
+        p.mt-4 Autores como Dochy, Segers y Sluijmans (1999) apoyan el término coevaluación o #[em coassesment], y aclaran que la evaluación colaborativa #[em (collaborative assessment)] y la evaluación cooperativa #[em (cooperative assessment)] son sinónimos.  La coevaluación suele hacerse en grupos en donde se escuchan, formulan preguntas y se evita divagar en las respuestas; aunque pueden asignarse tareas individuales.
+        p.txt-c3 Para implementar la coevaluación, se recomienda:
+      .col-lg-4.col-md-none
+        figure
+          img(src="@/assets/curso/tema2/30.svg")
 
-      .row.justify-content-center
-        .col-lg-10.col
-          .tarjeta.color-acento-botones.p-5.cont_slyderf
-            h4 Heteroevaluación
-            .row.mt-4
-              .col-lg.mb-4.mb-lg-0(style="place-self:center;")
-                p Analiza el desempeño, rendimiento y conocimientos en la labor ejercida por una persona que ocupa una función diferente a la propia, así, es posible reconocer muy claramente la posición entre el evaluador y el evaluado. La calificación que se da en este tipo de evaluación suele ser objetiva, aunque no siempre es el caso, como ocurre con un profesor que se deja llevar por sentimientos o arraigos hacia su estudiante.
-                p.mt-4 La heteroevaluación puede realizarse a un solo individuo o a un grupo de personas. Además, a diferencia de otras formas de evaluación, en la heteroevaluación no influyen los puntos de vista del evaluador, quien es un profesional en el área, y le explica al evaluado cómo mejorar en los puntos débiles.
-              .col-lg(style="place-self:center;")
-                figure
-                  img(src="@/assets/curso/tema2/6.png")
+
+    .row.alignt-items-stretch.mb-5
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/31.svg', alt='Tener un objetivo común.', style="max-width: 98px")
+
+          p.text-center.mb-0 Tener un objetivo común.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/32.svg', alt='Evaluar el desempeño y la calidad del trabajo.', style="max-width: 98px")
+
+          p.text-center.mb-0 Evaluar el desempeño y la calidad del trabajo.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/33.svg', alt='Tener criterios predefinidos.', style="max-width: 98px")
+
+          p.text-center.mb-0 Tener criterios predefinidos.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/34.svg', alt='Respetar y atender la opinión de los pares.', style="max-width: 98px")
+
+          p.text-center.mb-0 Respetar y atender la opinión de los pares.
+
+
+    h4.mb-4
+      span.subtitulo #[i.fas.fa-square.cac.me-1] Autoevaluación
+
+    .row.mb-4
+      .col-lg-4.col-md-none
+        figure
+          img(src="@/assets/curso/tema2/35.svg")
+      .col-lg-8.col-md
+        p El proceso de autoevaluación busca la mejora desde una perspectiva interna, de la formación continua y de la eficacia del servicio de interpretación. Ayuda a la toma de conciencia del intérprete evaluando su propio trabajo, según sus propias características y habilidades; como las estrategias cognitivas, los conocimientos previos, el ajuste emocional y social, entre otros.
+        p.mt-4 El prestador del servicio aprende a ser una persona responsable y crítica de su labor; se vuelve más consciente de su trabajo, desarrollando cualidades como el autoanálisis, la autoestima y la participación. Así, un profesional tiene la capacidad de reflexionar y planificar sobre su propio desempeño. Pueden hacerse autoevaluaciones individuales o grupales, dependiendo del objetivo y el procedimiento.
+        p.txt-c3 Para implementar la autoevaluación, se pueden seguir las siguientes recomendaciones:
+
+
+    .row.alignt-items-stretch.mb-5
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-3.px-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/36.svg', alt='Tener objetivos concretos. ', style="max-width: 62px")
+            .col
+              span Tener objetivos concretos.
+
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-3.px-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/37.svg', alt='Tener objetivos concretos. ', style="max-width: 62px")
+            .col
+              span Mantener una mente abierta y flexible.
+
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-3.px-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/38.svg', alt='Tener objetivos concretos. ', style="max-width: 62px")
+            .col
+              span Estimular un clima positivo de aprendizaje.
+
+
+    h4.mb-4
+      span.subtitulo #[i.fas.fa-square.cac.me-1] Heteroevaluación
+
+    .row.mb-4
+      .col-lg-8.col-md
+        p.mb-4 Analiza el desempeño, rendimiento y conocimientos en la labor ejercida por una persona que ocupa una función diferente a la propia, así, es posible reconocer muy claramente la posición entre el evaluador y el evaluado. La calificación que se da en este tipo de evaluación suele ser objetiva, aunque no siempre es el caso, como ocurre con un profesor que se deja llevar por sentimientos o arraigos hacia su estudiante.
+
+        .row
+          .col-auto
+            figure
+              img(src="@/assets/curso/tema2/40.svg")
+          .col
+            p La #[span.txt-c3 heteroevaluación] puede realizarse a un solo individuo o a un grupo de personas. Además, a diferencia de otras formas de evaluación, en la heteroevaluación no influyen los puntos de vista del evaluador, quien es un profesional en el área, y le explica al evaluado cómo mejorar en los puntos débiles.
+
+      .col-lg-4.col-md-none
+        figure
+          img(src="@/assets/curso/tema2/39.svg")
 
     p.mt-5(data-aos="fade-up") Toda evaluación requiere que los siguientes conceptos sean claros para llevarla a cabo:
 
