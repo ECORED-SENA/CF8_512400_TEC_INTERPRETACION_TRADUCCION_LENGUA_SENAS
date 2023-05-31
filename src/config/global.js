@@ -270,7 +270,7 @@ export default {
         'Alles, M. (2007). <em>Desempeño por competencias: evaluación de 360°</em>. Ediciones Granica. ',
       tipo: 'PDF',
       link:
-        'https://www.auditorlider.com/wp-content/uploads/2019/06/Desempeno-por-Competencias-de-360%C2%BA-Martha-Alles.pdf',
+        'https://books.google.com.co/books?id=HYGSeoWISbYC&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
     },
     {
       tema: 'Evaluación',
@@ -301,12 +301,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del ecosistema',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes ',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -318,34 +318,34 @@ export default {
         {
           nombre: 'Jhacesiz Mary Hincapié Atehortúa',
           cargo: 'Instructora',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Manuel Alejandro Garzón',
           cargo: 'Instructor',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'German Albeiro Saldarriga ',
-          cargo: 'Instructora',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+          cargo: 'Instructor',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Adriana María Bustamante',
           cargo: 'Profesional Diseño Curricular',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nidian Yarume Ortiz Buitrago',
           cargo: 'Experta temática',
           centro:
-            'Centro de Formación en Talento Humano y Salud - Regional Distrito Capital.',
+            'Centro de Formación en Talento Humano y Salud - Regional Distrito Capital',
         },
         {
           nombre: 'Jeimy Lorena Romero Perilla',
           cargo: 'Diseñador Instruccional',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander.',
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Luz Mila Pacheco Fuentes',
