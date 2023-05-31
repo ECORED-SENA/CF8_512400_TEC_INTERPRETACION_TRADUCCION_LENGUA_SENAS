@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Identificación de peligros
+      h1 Verificar la calidad del servicio y resolución de situaciones adversas
 
     .col-lg-10.m-auto
       .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5
@@ -29,8 +29,11 @@
         p.mt-3 En el marco de los criterios de calidad establecidos por Solow (2011), pueden destacarse la flexibilidad, objetividad y autodisciplina (p.304).
         p.mt-3 Pero, uno de los elementos más importantes es, sin dudas, #[b la experiencia].
 
-    .p-3.mt-5.ps-4.pe-4.mb-5(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
-      h3.mb-0.text-white.text-center(data-aos="fade-up") Resolución de situaciones adversas
+    Separador
+
+    #t_1_1
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 1.1 Resolución de situaciones adversas
 
     p(data-aos="fade-up") A diferencia de la mala suerte, una situación adversa es un suceso difícil de sobrellevar, un infortunio, calamidad o desgracia en determinado momento, sea para una o más personas.
     p.mt-4(data-aos="fade-up") Las personas pueden atravesar una situación adversa en cualquier momento y lugar, por ende, resulta importante reconocer los tipos de estrategias y herramientas que se pueden aplicar en caso de presentarse dichas situaciones durante el servicio de interpretación.
@@ -53,8 +56,12 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/hP0Vk4fO_qA" title="Estrategias para solucionar situaciones adversas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Estrategias para solucionar situaciones adversas.
-    .p-3.mt-5.ps-4.pe-4.mb-5(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
-      h3.mb-0.text-white.text-center(data-aos="fade-up") Quejas y reclamos
+
+    Separador
+
+    #t_1_2
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 1.2 Quejas y reclamos
 
     p(data-aos="fade-up") Hay una gran diferencia entre estos dos términos que a continuación se exponen:
 

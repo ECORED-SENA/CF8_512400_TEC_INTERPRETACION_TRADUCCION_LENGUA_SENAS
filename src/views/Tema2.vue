@@ -20,8 +20,10 @@
     p.mt-5(data-aos="fade-up") Hasta ahora no existen preceptos concretos para una evaluación estándar de la lengua de señas en Colombia, aunque se han realizado estudios lingüísticos, sociolingüísticos y críticas generales que pueden servir como fundamento para una valoración.
     p.mt-4(data-aos="fade-up") Por lo tanto, para delimitar los parámetros e indicadores que ayudan a determinar una buena interpretación en Lengua de Señas Colombiana es necesario conocer, de antemano, los tipos, procesos, momentos, criterios y retroalimentación para la evaluación.
 
-    .p-3.mt-5.ps-4.pe-4.mb-5(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
-      h3.mb-0.text-white.text-center(data-aos="fade-up") Tipos de evaluación
+    Separador
+    #t_2_1
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 2.1 Tipos de evaluación
 
     p(data-aos="fade-up") Hay diferentes formas de evaluación según el propósito que se desee obtener, según la lengua meta, momento, la función, los conocimientos previos, los contenidos, entre otros. Algunos de los tipos de evaluación que existen son:
 
@@ -104,8 +106,11 @@
 
     p.mt-5(data-aos="fade-up") Cada uno de estos tipos de evaluación contiene diferentes instrumentos para lograr sus objetivos particulares. Por ejemplo, rejillas, encuestas, entrevistas, KPSI, observación, contraste, entre muchos otros. Es necesario que luego de la evaluación se dé una retroalimentación #[i (feedback)] para reconocer las fortalezas y debilidades por mejorar, así se identifican las necesidades particulares, se aprende de los errores y se hacen mejoras en el servicio.
 
-    .p-3.mt-5.ps-4.pe-4.mb-4(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
-      h3.mb-0.text-white.text-center(data-aos="fade-up") Procesos de evaluación
+    Separador
+
+    #t_2_2
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 2.2 Procesos de evaluación
 
     p(data-aos="fade-up").mb-5 La evaluación debe ejecutarse de manera permanente, sistemática y planificada para que proporcione información útil, oportuna y confiable, es por esto que dentro de las misma deben existir tres procesos básicos, los cuales son:
 
@@ -256,8 +261,12 @@
 
     p.mt-5(data-aos="fade-up") En la medida en que estos conceptos se identifiquen antes, durante y después de evaluar, será mucho más fácil tener una retroalimentación que servirá de orientación para determinar los conocimientos, logros y dificultades a mejorar en el servicio que se preste.
 
-    .p-3.mt-5.ps-4.pe-4.mb-5(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
-      h3.mb-0.text-white.text-center(data-aos="fade-up") Momentos de evaluación
+
+    Separador
+
+    #t_2_3
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 2.3 Momentos de evaluación
 
     p(data-aos="fade-up") A continuación, se describen cada uno de los momentos que se deben tener en cuenta en el momento de realizar un proceso de evaluación.
 
@@ -287,9 +296,11 @@
         figure
           img(src='@/assets/curso/tema2/29.svg')
 
+    Separador
 
-    .p-3.mt-5.ps-4.pe-4.mb-5(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
-      h3.mb-0.text-white.text-center(data-aos="fade-up") Criterios de evaluación
+    #t_2_4
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 2.4 Criterios de evaluación
 
     p(data-aos="fade-up") En el momento de realizar cualquier tipo de evaluación, es fundamental tener ciertos indicadores concretos que sirven como parámetros o referencias para emitir algún juicio; esto es lo que se conoce como criterios de evaluación.
 
@@ -310,39 +321,41 @@
           .p-4
             h5.text-center Tipos de usuarios.
       .tarjeta-avatar
-        img(src='@/assets/curso/tema2/19.png' style="max-width:120px;")
+        img(src='@/assets/curso/tema2/19.svg' style="max-width:120px;")
         .tarjeta.w-100(style="background-color:#FBE6E9;")
           .p-4
             h5.text-center Logísticos.
       .tarjeta-avatar
-        img(src='@/assets/curso/tema2/20.png' style="max-width:120px;")
+        img(src='@/assets/curso/tema2/20.svg' style="max-width:120px;")
         .tarjeta.w-100(style="background-color:#FBE6E9;")
           .p-4
             h5.text-center Según la capacidad laboral o la habilidad.
       .tarjeta-avatar
-        img(src='@/assets/curso/tema2/21.png' style="max-width:120px;")
+        img(src='@/assets/curso/tema2/21.svg' style="max-width:120px;")
         .tarjeta.w-100(style="background-color:#FBE6E9;")
           .p-4
             h5.text-center Según los contenidos.
       .tarjeta-avatar
-        img(src='@/assets/curso/tema2/22.png' style="max-width:120px;")
+        img(src='@/assets/curso/tema2/22.svg' style="max-width:120px;")
         .tarjeta.w-100(style="background-color:#FBE6E9;")
           .p-4
             h5.text-center A nivel grupal.
       .tarjeta-avatar
-        img(src='@/assets/curso/tema2/23.png' style="max-width:120px;")
+        img(src='@/assets/curso/tema2/23.svg' style="max-width:120px;")
         .tarjeta.w-100(style="background-color:#FBE6E9;")
           .p-4
             h5.text-center A nivel individual.
       .tarjeta-avatar
-        img(src='@/assets/curso/tema2/24.png' style="max-width:120px;")
+        img(src='@/assets/curso/tema2/24.svg' style="max-width:120px;")
         .tarjeta.w-100(style="background-color:#FBE6E9;")
           .p-4
             h5.text-center Según los objetivos.
 
-    br
-    .p-3.mt-5.ps-4.pe-4.mb-5(style="background-color:#0079B9;width: fit-content;border-top-right-radius:30px;border-bottom-left-radius:30px;")
-      h3.mb-0.text-white.text-center(data-aos="fade-up") Retroalimentación de los resultados
+    Separador
+
+    #t_2_5
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 2.5 Retroalimentación de los resultados
 
     .col-lg-10.mt-5.m-auto
       .cajon.color-secundario.p-4.row

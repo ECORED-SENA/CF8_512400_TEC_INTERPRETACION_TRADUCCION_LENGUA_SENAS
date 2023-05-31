@@ -43,21 +43,69 @@ export default {
         titulo:
           'Verificar la calidad del servicio y resolución de situaciones adversas ',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Resolución de situaciones adversas ',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Quejas y reclamos',
+            hash: 't_1_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
         titulo: 'Evaluación',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tipos de evaluación ',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Procesos de evaluación ',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Momentos de la evaluación ',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Criterios de evaluación ',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Retroalimentación de los resultados ',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Instrumentos de evaluación',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Tipos de instrumentos',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Diseño de instrumentos',
+            hash: 't_3_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -108,8 +156,6 @@ export default {
     {
       referencia:
         'Alles, M. A. (2007). <em>Desempeño por competencias: evaluación de 360°</em>. Ediciones Granica. ',
-      link:
-        'https://www.auditorlider.com/wp-content/uploads/2019/06/Desempeno-por-Competencias-de-360%C2%BA-Martha-Alles.pdf',
     },
     {
       referencia:
@@ -122,7 +168,8 @@ export default {
       link: 'https://www.redalyc.org/pdf/1794/179420770003.pdf',
     },
     {
-      referencia: 'Gestión. (s. f.). <em>Política de calidad.</em> ',
+      referencia:
+        'Gestión. (s. f.). <em>Comunicación interna en la empresa: cuando hablar y comunicarse hace ganar dinero.</em> ',
       link:
         'https://www.gestion.org/elementos-de-comunicacion-interna-en-la-empresa/',
     },
@@ -146,7 +193,7 @@ export default {
     },
     {
       referencia:
-        'Van Dijk, T. A. (2005). <em>Estructuras y funciones del discurso: una introducción interdisciplinaria a la lingüística del texto ya los estudios del discurso.</em> Siglo XXI. ',
+        'Van Dijk, T. A. (2005). <em>Estructuras y funciones del discurso: una introducción interdisciplinaria a la lingüística del texto y a los estudios del discurso.</em> Siglo XXI. ',
       link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6401753',
     },
   ],
