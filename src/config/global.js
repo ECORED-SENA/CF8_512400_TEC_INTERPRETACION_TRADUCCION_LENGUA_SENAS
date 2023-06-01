@@ -142,7 +142,7 @@ export default {
       },
       {
         icono: 'fas fa-download',
-        titulo: 'Descargar material',
+        titulo: 'Descargar HTML',
         download: 'downloads/material.zip',
       },
       {
@@ -339,7 +339,7 @@ export default {
         },
         {
           nombre: 'Nidian Yarume Ortiz Buitrago',
-          cargo: 'Experta temática',
+          cargo: 'Experta Temática',
           centro:
             'Centro de Formación en Talento Humano y Salud - Regional Distrito Capital',
         },
@@ -384,7 +384,7 @@ export default {
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e ilustración',
+          cargo: 'Storyboard e Ilustración',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -419,7 +419,7 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
