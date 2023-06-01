@@ -156,6 +156,8 @@ export default {
     {
       referencia:
         'Alles, M. A. (2007). <em>Desempeño por competencias: evaluación de 360°</em>. Ediciones Granica. ',
+      link:
+        'https://books.google.com.co/books?id=HYGSeoWISbYC&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
     },
     {
       referencia:
@@ -370,7 +372,7 @@ export default {
       autores: [
         {
           nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -388,7 +390,7 @@ export default {
         },
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
